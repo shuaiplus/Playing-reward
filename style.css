@@ -56,19 +56,19 @@ a {
 
 #DonateText {
 	position: fixed;
-	font-size: 12px;
-	width: 70px;
-	height: 70px;
-	line-height: 70px;
-	color: #fff;
-	background: #ffd886 url(images/like.svg) no-repeat center 10px;
-	background-size: 20px;
-	border-radius: 35px;
-	text-align: center;
-	left: calc(50% - 120px);
-	top: calc(50% - 60px);
-	z-index: -1;
-	transform: rotatez(-15deg);
+    font-size: 12px;
+    width: 700px;
+    height: 700px;
+    line-height: 70px;
+    color: #fff;
+    background: #ffffff00 url(images/like.svg) no-repeat center 10px;
+    background-size: 189px;
+    border-radius: 35px;
+    text-align: center;
+    left: calc(50% - 280px);
+    top: calc(50% - 105px);
+    z-index: -1;
+    transform: rotatez(-15deg);
 }
 
 #donateBox {
@@ -77,28 +77,28 @@ a {
 	background-color: #fff;
 	border: 1px solid #ddd;
 	border-radius: 6px;
-	width: 299px;
-	height: 28px;
+
+    height: 30px;
 	float: left;
 	z-index: 1;
 }
 
 #donateBox li {
-	width: 74px;
-	float: left;
-	text-align: center;
-	border-left: 1px solid #ddd;
-	background: no-repeat center center;
-	background-color: rgba(204, 217, 220, 0.1);
-	background-size: 45px;
-	transition: all .3s;
-	cursor: pointer;
-	overflow: hidden;
-	line-height: 600px;
-	height: 28px;
-	-webkit-filter: grayscale(1);
-	filter: grayscale(1);
-	opacity: 0.5;
+    width: 100px;
+    float: left;
+    text-align: center;
+    border-left: 1px solid #E01;
+    background: no-repeat center center;
+    background-color: rgba(204, 217, 220, 0.1);
+    background-size: 72px;
+    transition: all .3s;
+    cursor: pointer;
+    overflow: hidden;
+    line-height: 666px;
+    height: 29px;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: 0.5;
 }
 
 #donateBox li:hover {
